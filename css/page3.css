@@ -1,0 +1,106 @@
+html,body {
+    padding: 0px;
+    margin: 0px;
+    /* border: solid red 8px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid-container-22 {
+    display: grid;
+    grid-template-columns: 250px repeat(1, 1fr);
+    grid-template-rows: 250px repeat(1, 1fr);
+    grid-gap: 0px 0px;
+    margin: 0px;
+    padding: 3px;
+    height: fit-content;
+}
+.grid-left-top {
+    margin: 0px;
+    padding: 0px;
+    z-index: 2; 
+    overflow: hidden;
+    border: 2px solid #333333;
+} 
+.logo-img {
+    position: absolute;
+    object-fit: cover;
+    object-position: 0 0; 
+    height: 246px;
+    width: 246px;
+    top: 5px;
+    left: 5px;
+    z-index: 2;
+}
+.logo {
+    background-color: rgb(0, 150, 94);
+    color: blanchedalmond;
+    text-shadow: 1px 1px black;
+    font-size: 42px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    z-index: 3;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-left-bottom {
+    background-color: rgba(68, 68, 68);
+    border: 2px solid #333333;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 2.5;
+    margin: 0px;
+    overflow-x: hidden;
+    padding: 0px;
+    align-items: center; 
+    z-index: 2;
+}
+.ul-main-menu {
+    padding-left: 8px;
+    padding-right: 8px;
+    list-style-type: none;
+    text-indent: 16px;
+}
+
+.main-menu-buttons {
+    padding: 0;
+    border: none;
+    background: none;
+    color: white;
+    outline:none;
+    font-size: 12px;
+}
+.main-menu-buttons:focus {
+    font-size:14px;
+    height:10px;
+    -webkit-text-stroke: 1px yellow;
+}
+.hr-custom {
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid rgb(85, 85, 85);
+    border-left: none;
+    border-right: none;
+    border-style: inset;
+    border-radius: 1px 1px 1px 1px;
+    border-color: rgb(125, 125, 125);
+    width: 100%;
+}
+.grid-area-1222 {
+    grid-area: 1 / 2 / span 2 / span 2;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: auto;
+    z-index: 2;
+}
+
+.pages {
+    z-index: 3;    
+}
