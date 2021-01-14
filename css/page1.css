@@ -19,39 +19,3 @@
     border: 2px solid #333333;
 } 
 
-.golyo {
-    width: 100px;
-    height: 100px;
-    /* display: inline-block; */
-    text-align: center;
-    vertical-align: middle;
-    line-height: 97px; 
-    font-weight: bold;
-    font-size: 1.8em;
-}
-
-.golyo-red {
-    background: url("../images/golyo_red.png");
-    background-size: 100%;
-}
-
-.golyo-purple {
-    background: url("../images/golyo_purple.png");
-    background-size: 100%;
-}
-
-.golyo-orange {
-    background: url("../images/golyo_orange.png");
-    background-size: 100%;
-}
-
-.golyo-green {
-    background: url("../images/golyo_green.png");
-    background-size: 100%;
-}
-
-.golyo-blue {
-    background: url("../images/golyo_blue.png");
-    background-size: 100%;
-}
-

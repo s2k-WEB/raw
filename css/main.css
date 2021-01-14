@@ -100,7 +100,6 @@ html,body {
     overflow-x: auto;
     z-index: 2;
 }
-
 .pages {
     margin-left: 22px;
     /* background-color: #333333; */
@@ -108,15 +107,41 @@ html,body {
     width: fit-content;
     height: fit-content;
 }
-
 h1 {
     font-size: 50px;
 }
-
 h2 {
     font-size: 30px;
 }
-
 h3 {
     font-size: 25px;
+}
+.golyo {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 97px; 
+    font-weight: bold;
+    font-size: 1.8em;
+}
+.golyo-red {
+    background: url("../images/golyo_red.png");
+    background-size: 100%;
+}
+.golyo-purple {
+    background: url("../images/golyo_purple.png");
+    background-size: 100%;
+}
+.golyo-orange {
+    background: url("../images/golyo_orange.png");
+    background-size: 100%;
+}
+.golyo-green {
+    background: url("../images/golyo_green.png");
+    background-size: 100%;
+}
+.golyo-blue {
+    background: url("../images/golyo_blue.png");
+    background-size: 100%;
 }
