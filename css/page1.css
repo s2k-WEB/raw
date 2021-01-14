@@ -1,11 +1,16 @@
 .grid-container-51 {
     display: grid;
-    grid-template-columns: 250px repeat(5, 1fr);
-    /* grid-template-rows: 250px repeat(1, 1fr); */
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto;
     grid-gap: 0px 0px;
     margin: 0px;
     padding: 3px;
     height: fit-content;
+    width: fit-content;
+    grid-auto-flow: column;
+    /* justify-content: center;
+    align-content: center;  */
+
 }
 .grid-item {
     margin: 0px;
@@ -17,34 +22,36 @@
 .golyo {
     width: 100px;
     height: 100px;
-    display: inline-block; 
+    /* display: inline-block; */
     text-align: center;
+    vertical-align: middle;
+    line-height: 97px; 
     font-weight: bold;
     font-size: 1.8em;
 }
 
 .golyo-red {
-    background: url("images/golyo_red.png");
+    background: url("../images/golyo_red.png");
     background-size: 100%;
 }
 
 .golyo-purple {
-    background: url("images/golyo_purple.png");
+    background: url("../images/golyo_purple.png");
     background-size: 100%;
 }
 
 .golyo-orange {
-    background: url("images/golyo_orange.png");
+    background: url("../images/golyo_orange.png");
     background-size: 100%;
 }
 
 .golyo-green {
-    background: url("images/golyo_green.png");
+    background: url("../images/golyo_green.png");
     background-size: 100%;
 }
 
 .golyo-blue {
-    background: url("images/golyo_blue.png");
+    background: url("../images/golyo_blue.png");
     background-size: 100%;
 }
 
