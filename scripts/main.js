@@ -1,6 +1,7 @@
-console.log("Hello, World!");
-
 $(document).ready(function(){
+    $(".logo").click(function(){
+        $("#grid-area-1222").load("index.html");
+    });
     $("#page1").click(function(){
         $("#grid-area-1222").load("pages/page1.html");
     });
