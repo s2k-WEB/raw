@@ -1,7 +1,4 @@
 $(document).ready(function(){
-    $(".logo").load(function(){
-        $("#grid-area-1222").load("pages/page0.html");
-    });
     $(".logo").click(function(){
         $("#grid-area-1222").load("pages/page0.html");
     });
