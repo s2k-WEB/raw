@@ -16,7 +16,7 @@ h3 {
 
 .grid-container-22 {
     display: grid;
-    grid-template-columns: 250px repeat(1, 1fr);
+    grid-template-columns: 275px repeat(1, 1fr);
     grid-template-rows: 250px repeat(1, 1fr);
     grid-gap: 0px 0px;
     margin: 0px;
@@ -31,13 +31,11 @@ h3 {
     border: 2px solid #333333;
 } 
 .logo-img {
-    position: absolute;
+    position: relative;
     object-fit: cover;
     object-position: 0 0; 
-    height: 246px;
-    width: 246px;
-    top: 5px;
-    left: 5px;
+    width: 370px;
+    top: -150px;
     z-index: 2;
 }
 .logo {
@@ -75,7 +73,7 @@ h3 {
     padding-left: 8px;
     padding-right: 8px;
     list-style-type: none;
-    text-indent: 16px;
+    text-indent: 10px;
 }
 .main-menu-buttons {
     padding: 0;
@@ -109,7 +107,7 @@ h3 {
     z-index: 2;
 }
 .pages {
-    margin-left: 22px;
+    margin-left: 40px;
     z-index: 3;    
     width: fit-content;
     height: fit-content;
