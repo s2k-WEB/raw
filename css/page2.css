@@ -9,35 +9,30 @@
     width: fit-content;
     grid-auto-flow: column;
 }
-
-
 ol {
     list-style-position: inside;
     line-height: 2.5;
     padding: 0px;
 }
-
 ol.custom {
     list-style-type: none;
     margin-left: 0;
 }
-  
-  ol.custom > li {
-    counter-increment: customlistcounter;
-  }
-  
-  ol.custom > li:before {
-    content: "#" counter(customlistcounter);
-    font-weight: bold;
-    float: left;
-    width: 1.5em;
-    font-size: 40px;
-  }
-  
-  ol.custom:first-child {
-    counter-reset: customlistcounter;
-  }
-
+ol.custom > li {
+  counter-increment: customlistcounter;
+}
+ 
+ol.custom > li:before {
+  content: "#" counter(customlistcounter);
+  font-weight: bold;
+  float: left;
+  width: 1.5em;
+  font-size: 40px;
+}
+ 
+ol.custom:first-child {
+  counter-reset: customlistcounter;
+}
 li {
     display: block;
     margin-left: 8%;
