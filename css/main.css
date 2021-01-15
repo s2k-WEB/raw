@@ -4,6 +4,16 @@ html,body {
     /* border: solid red 8px; */
     font-family: Arial, Helvetica, sans-serif;
 }
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 25px;
+}
+
 .grid-container-22 {
     display: grid;
     grid-template-columns: 250px repeat(1, 1fr);
@@ -49,7 +59,6 @@ html,body {
     justify-content: center;
     align-items: center;
 }
-
 .grid-left-bottom {
     background-color: rgba(68, 68, 68);
     border: 2px solid #333333;
@@ -68,7 +77,6 @@ html,body {
     list-style-type: none;
     text-indent: 16px;
 }
-
 .main-menu-buttons {
     padding: 0;
     border: none;
@@ -106,15 +114,6 @@ html,body {
     z-index: 3;    
     width: fit-content;
     height: fit-content;
-}
-h1 {
-    font-size: 50px;
-}
-h2 {
-    font-size: 30px;
-}
-h3 {
-    font-size: 25px;
 }
 .golyo {
     width: 100px;

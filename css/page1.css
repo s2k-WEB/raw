@@ -8,14 +8,5 @@
     height: fit-content;
     width: fit-content;
     grid-auto-flow: column;
-    /* justify-content: center;
-    align-content: center;  */
-
 }
-.grid-item {
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    border: 2px solid #333333;
-} 
 
