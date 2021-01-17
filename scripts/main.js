@@ -12,7 +12,7 @@ function loadPageScript(pageurl) {
 
 /* csv file betöltése javascript "objektumba" */
 var CSVarray = new Object();
-$.get( "data/otos-utf8.csv", function(csv) {
+$.get( "./data/otos-utf8.csv", function(csv) {
     var lines=csv.split("\n");
     for(var i=0; i < lines.length; i++) {
     CSVarray[i] = lines[i].split(";");
@@ -24,7 +24,7 @@ $(document).ready(function() {
     for (let i = 0; i < 8; i++) {
         $(`#page${i}`).click(function(){
             $("#grid-area-1222").load(`./pages/page${i}.html`);
-            loadPageScript(`/scripts/page${i}.js`);
+            loadPageScript(`./scripts/page${i}.js`);
         });
     }
 });
