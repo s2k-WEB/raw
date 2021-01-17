@@ -23,7 +23,7 @@ $.get( "data/otos-utf8.csv", function(csv) {
 $(document).ready(function() {
     for (let i = 0; i < 8; i++) {
         $(`#page${i}`).click(function(){
-            $("#grid-area-1222").load(`/pages/page${i}.html`);
+            $("#grid-area-1222").load(`./pages/page${i}.html`);
             loadPageScript(`/scripts/page${i}.js`);
         });
     }
