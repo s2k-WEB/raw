@@ -1,6 +1,8 @@
 $(document).ready(function(){
-    const nyeroszamok = [30, 57, 58, 61, 86, 30, 57, 58, 61, 86];
-    for (let i = 0; i < nyeroszamok.length; i++) {
-        document.getElementById(`golyo${i}`).innerHTML = nyeroszamok[i];        
+    let x = 0;
+    for (let i = (CSVarray[1].length - 5 ); i < CSVarray[1].length; i++) {
+        document.getElementById(`golyo${x}`).innerHTML = CSVarray[1][i];
+        document.getElementById(`golyo${x+5}`).innerHTML = CSVarray[1][i];
+        x++;
     }
 });
