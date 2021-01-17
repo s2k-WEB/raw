@@ -19,7 +19,7 @@ $.get( "./data/otos-utf8.csv", function(csv) {
     }
 });
 
-/* Az oldal ready() esemény utáni szál. */
+/* Az oldal ready() esemény utáni szála. */
 $(document).ready(function() {
     for (let i = 0; i < 8; i++) {
         $(`#page${i}`).click(function(){
