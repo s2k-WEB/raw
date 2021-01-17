@@ -1,8 +1,8 @@
     /*  Mivel a menű pontok külön oldalakat töltenek be ajax segítségével és az oldalaknak van egy saját scriptje
-        ezért az oldalak betöltődését késleltetni kell amíg az adott oldal saját scriptje be nem töltődik a 
-        szinkronizáció miatt. Máskülönben az XMLHttpRequest kérés a fő szálbvan asyncronous lesz. Ez csak 
-        figyelmeztetést eredméynez, de jövőben a nem szinkronizált XMLHttp kérések nem lesznek támogatottak a
-        legtöbb böngészőben.A jQuery támogatja ezt az eljárást a holdReady() funkcióval.
+         ezért az oldalak betöltődését késleltetni kell amíg az adott oldal saját scriptje be nem töltődik a 
+         szinkronizáció miatt. Máskülönben az XMLHttpRequest kérés a fő szálban asyncronous lesz. Ez csak 
+         figyelmeztetést eredményez egyellőre, de jövőben a nem szinkronizált XMLHttp kérések nem lesznek támogatottak
+         a legtöbb böngészőben.A jQuery támogatja ezt az eljárást a holdReady() funkcióval.
         További információ: https://api.jquery.com/jquery.holdready/
     */
     function loadPageScript(pageurl) {
