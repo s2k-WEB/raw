@@ -19,8 +19,8 @@ function loadPageScript(pageurl) {
 $(document).ready(function() {
     for (let i = 0; i < 8; i++) {
         $(`#page${i}`).click(function(){
-            loadPageScript(`./scripts/page${i}.js`);
             $("#grid-area-1222").load(`./pages/page${i}.html`);
-        });
+            loadPageScript(`./scripts/page${i}.js`);
+         });
     }
 });
