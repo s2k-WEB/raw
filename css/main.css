@@ -154,4 +154,25 @@ h3 {
     width: fit-content;
     max-width: fit-content;
 }
-
+.popup {
+    border: solid 4px black;
+    background-image: linear-gradient(red, yellow);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: white;
+    font-size: 20pt;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    z-index: 6;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: none;
+    /* display: inline-block; */
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,8 +1,8 @@
 /* csv file betöltése javascript "objektumba" */
-var CSVarray = new Object();
+let CSVarray = [];
 $.get( "./data/otos-utf8.csv", function(csv) {
-    var lines=csv.split("\n");
-    for(var i=0; i < lines.length; i++) {
+    let lines = csv.split("\n");
+    for(let i=0; i < lines.length-1; i++) {
     CSVarray[i] = lines[i].split(";");
     }
 });
@@ -19,8 +19,8 @@ function loadPageScript(pageurl) {
 $(document).ready(function() {
     for (let i = 0; i < 8; i++) {
         $(`#page${i}`).click(function(){
-            $("#grid-area-1222").load(`./pages/page${i}.html`);
             loadPageScript(`./scripts/page${i}.js`);
+            $("#grid-area-1222").load(`./pages/page${i}.html`);
         });
     }
 });
