@@ -1,5 +1,8 @@
 .myiframe1 {
-    position: absolute;
-    width: 100%;
-    height: 50%;
+    width: 940px;
+    height: 500px;
+}
+.myiframe2 {
+    width: 940px;
+    height: 500px;
 }
